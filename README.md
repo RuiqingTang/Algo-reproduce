@@ -16,7 +16,7 @@ This repository documents all open-source algorithms that I have reproduced up t
 
 ## [3d human motion capture](#myanchor3)
 
-## [*else*](#myanchor4)
+## [else](#myanchor4)
 
 Currently, I have integrated text2motion and music2dance into the 🫨Discord community. Due to the unstable server magic and algorithm inefficiency, it is temporarily unavailable for public access. I will continue to update and expect to go live by the end of October.
 
@@ -28,13 +28,11 @@ Currently, I have integrated text2motion and music2dance into the 🫨Discord co
 | LLM Role Play (Voice & Text Chat) | 👨‍💻 developing |                            · · ·                             |
 |          Motion Capture           | 👨‍💻 developing |                            · · ·                             |
 
+## <span id='myanchor1'>text to 3d human motion</span>
 
+## <span id='myanchor2'>music to 3d human dance</span>>
 
-## text to 3d human motion {#myanchor1}
+## <span id='myanchor3'>3d human motion capture</span>>
 
-## music to 3d human dance {#myanchor2}
-
-## 3d human motion capture {#myanchor3}
-
-## else {#myanchor4}
+## <span id='myanchor4'>else</span>>
 
