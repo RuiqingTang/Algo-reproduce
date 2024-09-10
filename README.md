@@ -34,16 +34,13 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
-|                         text2motion                          | music2dance                         |
-| :----------------------------------------------------------: | ----------------------------------- |
-|                       prompts：Boxing                        | prompts：[A song](./assets/ljr.mp3) |
-| <details>      <summary>点击播放视频</summary>      <iframe width="560" height="315" src="https://www.youtube.com/embed/FHZUvqp7Tg4?si=RLelx0uxxsTNRwIu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </details> |                                     |
+   <details>      <summary>click to play (prompts: boxing)</summary>      <iframe width="560" height="315" src="https://www.youtube.com/embed/FHZUvqp7Tg4?si=RLelx0uxxsTNRwIu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </details> 
+
+   <details>      <summary>click to play (music2dance,the input music is the bgm)</summary>      <iframe width="560" height="315" src="https://www.youtube.com/embed/zw_wAI94U-w?si=md3zkzkzM35WDAHH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </details> 
 
 ## <span id='myanchor1'>text to 3d human motion</span>
 
 
-
-## <span id='myanchor2'>music to 3d human dance</span>
 
 ## <span id='myanchor3'>3d human motion capture</span>
 
