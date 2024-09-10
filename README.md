@@ -38,7 +38,7 @@ Here are some result demonstrations.
 
 ## ⭐You can find all the results in this [directory](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets).
 
-## Tools{#tools}
+## <span id='tools'>Tools</span>
 
 1. smpl2fbx
 
@@ -99,7 +99,7 @@ Here are some result demonstrations.
 
    📚Paper: https://arxiv.org/abs/2402.15509
 
-   📝 Note: Personally, I find this algorithm to be excellent. I have decided to integrate it into my Discord community by September 30, 2024. I have made some modifications to this algorithm. 
+   📝 Note: Personally, I find this algorithm to be excellent. I have decided to integrate it into my Discord community to replace the current algorithm（[SATO](#sato)）by September 30, 2024. I have made some modifications to this algorithm. 
 
    Firstly, I need to address the input format. In FlowMDM, the input data is a JSON file containing two fields: lengths and text. 
 
@@ -118,11 +118,19 @@ Here are some result demonstrations.
 
    Additionally, the model outputs JOINT poses, which need to be converted into SMPL. Fortunately, previous researchers have provided a *joint2smpl* script. However, this step is actually very time-consuming. I examined its source code and found that the issue lies with the optimizer. The author used the *LBFGS* optimizer, which incurs significant computational overhead. I replaced it with *Adam*, which, although it does not achieve the same final performance as *LBFGS* (prone to Z-fighting issues), is much faster.
 
-   📀Results: You can check the demo result and my test results [here]().
+   📀Results: You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/FlowMDM).
 
-   
+3. <span id='sato'>SATO</span>✨
 
-3. 1
+   :crystal_ball: Code: https://github.com/sato-team/Stable-Text-to-Motion-Framework
+
+   :volleyball: Projects Page: https://sato-team.github.io/Stable-Text-to-Motion-Framework/
+
+   📚Paper: https://arxiv.org/abs/2405.01461
+
+   📝 Note: This algorithm can only generate some very simple motion. But before  learning about FlowMDM, it was relatively better.
+
+   📀Results: You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/SATO).
 
 4. 1
 
