@@ -30,11 +30,11 @@ Currently, I have integrated text2motion and music2dance into the 🫨Discord co
 
 
 
-## text to 3d human motion{#my_anchor1}
+## text to 3d human motion {#my_anchor1}
 
-## music to 3d human dance{#my_anchor2}
+## music to 3d human dance {#my_anchor2}
 
-## 3d human motion capture{#my_anchor3}
+## 3d human motion capture {#my_anchor3}
 
-## else{#my_anchor4}
+## else {#my_anchor4}
 
