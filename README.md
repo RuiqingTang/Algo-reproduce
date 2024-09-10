@@ -34,7 +34,9 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
-   <video width="320" height="240" controls>        <source src="https://youtu.be/FHZUvqp7Tg4?si=uXYWLyGEa9imYNWX" type="video/mp4"> </video>
+<video controls>
+  <source src="./assets/boxing.mp4" type="video/mp4">
+</video>
 
 ## <span id='myanchor1'>text to 3d human motion</span>
 
