@@ -34,12 +34,10 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
-|            text2motion             | music2dance                         |
-| :--------------------------------: | ----------------------------------- |
-|          prompts：Boxing           | prompts：[A song](./assets/ljr.mp3) |
-| <video src="./assets/boxing.mp4"/> |                                     |
-
-
+|                         text2motion                          | music2dance                         |
+| :----------------------------------------------------------: | ----------------------------------- |
+|                       prompts：Boxing                        | prompts：[A song](./assets/ljr.mp3) |
+| <details>      <summary>点击播放视频</summary>      <iframe width="560" height="315" src="https://www.youtube.com/embed/FHZUvqp7Tg4?si=RLelx0uxxsTNRwIu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </details> |                                     |
 
 ## <span id='myanchor1'>text to 3d human motion</span>
 
