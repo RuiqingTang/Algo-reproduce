@@ -6,6 +6,8 @@ This repository documents all open-source algorithms that I have reproduced up t
 
 ✉️ Any additions or suggestions, feel free to contribute and contact [tangruiqing123@gmail.com](tangruiqing123@gmail.com).
 
+![](./assets/programmer.png)
+
 # Table of Contents
 
 ## [text to 3d human motion](#my-anchor1)
@@ -16,15 +18,15 @@ This repository documents all open-source algorithms that I have reproduced up t
 
 ## [*else*](#my_anchor4)
 
-## Currently, I have integrated text2motion and music2dance into the Discord community. Due to the unstable server magic and algorithm inefficiency, it is temporarily unavailable for public access. I will continue to update and expect to go live by the end of October.
+Currently, I have integrated text2motion and music2dance into the 🫨Discord community. Due to the unstable server magic and algorithm inefficiency, it is temporarily unavailable for public access. I will continue to update and expect to go live by the end of October.
 
-|           Task           |    Status     |                           Roadmap                            |
-| :----------------------: | :-----------: | :----------------------------------------------------------: |
-|       Text2Motion        |  ⛳supported   | Multi-role Selection<br>Customize Roles<br />vmd&fbx Download Link |
-|       Music2Dance        |  ⛳supported   | Multi-role Selection<br/>Customize Roles<br />vmd&fbx Download Link |
-| Singing Voice Conversion | 👨💻 developing |                                                              |
-|                          |               |                                                              |
-|                          |               |                                                              |
+|               Task                |    Status     |                           Roadmap                            |
+| :-------------------------------: | :-----------: | :----------------------------------------------------------: |
+|            Text2Motion            |  ⛳supported   | Multi-role Selection<br>Customize Roles<br />vmd&fbx Download Link |
+|            Music2Dance            |  ⛳supported   | Multi-role Selection<br/>Customize Roles<br />vmd&fbx Download Link |
+|     Singing Voice Conversion      | 👨‍💻 developing |                            · · ·                             |
+| LLM Role Play (Voice & Text Chat) | 👨‍💻 developing |                            · · ·                             |
+|          Motion Capture           | 👨‍💻 developing |                            · · ·                             |
 
 
 
