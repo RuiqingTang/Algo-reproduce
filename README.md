@@ -10,13 +10,13 @@ This repository documents all open-source algorithms that I have reproduced up t
 
 # Table of Contents
 
-## [text to 3d human motion](#my-anchor1)
+## [text to 3d human motion](#myanchor1)
 
-## [music to 3d human dance](#my_anchor2)
+## [music to 3d human dance](#myanchor2)
 
-## [3d human motion capture](#my_anchor3)
+## [3d human motion capture](#myanchor3)
 
-## [*else*](#my_anchor4)
+## [*else*](#myanchor4)
 
 Currently, I have integrated text2motion and music2dance into the 🫨Discord community. Due to the unstable server magic and algorithm inefficiency, it is temporarily unavailable for public access. I will continue to update and expect to go live by the end of October.
 
@@ -30,11 +30,11 @@ Currently, I have integrated text2motion and music2dance into the 🫨Discord co
 
 
 
-## text to 3d human motion {#my_anchor1}
+## text to 3d human motion {#myanchor1}
 
-## music to 3d human dance {#my_anchor2}
+## music to 3d human dance {#myanchor2}
 
-## 3d human motion capture {#my_anchor3}
+## 3d human motion capture {#myanchor3}
 
-## else {#my_anchor4}
+## else {#myanchor4}
 
