@@ -34,9 +34,7 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
-   <details>      <summary>click to play (prompts: boxing)</summary>      <iframe width="560" height="315" src="https://www.youtube.com/embed/FHZUvqp7Tg4?si=RLelx0uxxsTNRwIu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </details> 
-
-   <details>      <summary>click to play (music2dance,the input music is the bgm)</summary>      <iframe width="560" height="315" src="https://www.youtube.com/embed/zw_wAI94U-w?si=md3zkzkzM35WDAHH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </details> 
+   <video width="320" height="240" controls>        <source src="https://youtu.be/FHZUvqp7Tg4?si=uXYWLyGEa9imYNWX" type="video/mp4"> </video>
 
 ## <span id='myanchor1'>text to 3d human motion</span>
 
