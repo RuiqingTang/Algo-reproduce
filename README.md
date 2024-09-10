@@ -34,7 +34,9 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
-[![Video Title](http://img.youtube.com/vi/FHZUvqp7Tg4/0.jpg)](http://www.youtube.com/watch?v=FHZUvqp7Tg4)
+https://github.com/RuiqingTang/Algo-reproduce/blob/main/assets/boxing.mp4
+
+
 
 ## <span id='myanchor1'>text to 3d human motion</span>
 
