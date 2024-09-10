@@ -34,9 +34,7 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
-<video controls>
-  <source src="./assets/boxing.mp4" type="video/mp4">
-</video>
+[![Video Title](http://img.youtube.com/vi/FHZUvqp7Tg4/0.jpg)](http://www.youtube.com/watch?v=FHZUvqp7Tg4)
 
 ## <span id='myanchor1'>text to 3d human motion</span>
 
