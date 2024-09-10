@@ -34,9 +34,8 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
-https://github.com/RuiqingTang/Algo-reproduce/blob/main/assets/boxing.mp4
-
-
+<video src="./assets/boxing.mp4" controls="controls" style="max-width: 100%;">
+</video>
 
 ## <span id='myanchor1'>text to 3d human motion</span>
 
