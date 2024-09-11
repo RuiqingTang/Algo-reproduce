@@ -202,7 +202,7 @@ Here are some result demonstrations.
 
 ## <span id='myanchor2'>music to 3d huamn dance</span>
 
-1. **Lodge✨✨✨**
+1. **<span id='lodge'>Lodge✨✨✨</span>**
 
    **:crystal_ball: Code:** https://github.com/li-ronghui/LODGE
 
@@ -222,33 +222,49 @@ Here are some result demonstrations.
 
    **📚 Paper:** https://arxiv.org/abs/2211.10658 **(CVPR 2023)**
 
-   **📝 Note:** The performance of this algorithm is not as impressive as Lodge's. It might be because I'm not very knowledgeable about dance, but I find its movements to be more conservative, with smaller ranges and a more rigid feel compared to Lodge. Only in the demo does it appear to perform well.
+   **📝 Note:** The performance of this algorithm is not as impressive as [Lodge's](#lodge). It might be because I'm not very knowledgeable about dance, but I find its movements to be more conservative, with smaller ranges and a more rigid feel compared to Lodge. Only in the demo does it appear to perform well.
 
    **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/music2dance/EDGE).
 
 ## <span id='myanchor3'>3d human motion capture</span>
 
-1. **WHAM**
+1. **WHAM**✨✨
 
    **:crystal_ball: Code:** https://github.com/yohanshin/WHAM
 
    **:volleyball: Projects Page:** https://wham.is.tue.mpg.de/
 
-   **📚 Paper:** https://arxiv.org/abs/2309.17448 **(NIPS 2023)**
+   **📚 Paper:** https://arxiv.org/abs/2312.07531 **(CVPR 2024)**
 
-   **📝 Note:** The implementation and application of this algorithm are extremely challenging.
+   **📝 Note:** Currently, I believe this algorithm has the best performance, but there are still some flaws that need improvement. Firstly, its logic for identifying people is overly simplistic. Using YOLOv8, it only determines whether the same person based on the keypoints and IoU between adjacent frames. To reduce computation time, I  resampled the video to 10fps, which will cause issues with its identification of people's identities. When the person's movements are fast or large in amplitude (such as turning around, squatting), the algorithm may consider them to be different individuals. When the camera switches, there is also a high probability of this situation occurring. However, if the camera remains stationary and there is only one person, by adjusting the thresholds for keypoints and IoU, it is possible to achieve relatively accurate identification. In the future, I will integrate this algorithm into the Discord community.
 
-   **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/music2dance/EDGE).
+   **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/motioncapture/wham).
 
-2. 1
+2. **TRAM**
 
-3. 1
+   **:crystal_ball: Code:** https://github.com/yufu-wang/tram
 
-4. 1
+   **:volleyball: Projects Page:** https://yufu-wang.github.io/tram4d/
 
-5. 
+   **📚 Paper:** https://arxiv.org/abs/2403.17346
 
-6. **Smpler-X**
+   **📝 Note:** This algorithm lacks robustness.
+
+   **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/motioncapture/tram).
+
+3. **<span id='tokenhmr'>TokenHMR</span>**
+
+   **:crystal_ball: Code:** https://github.com/saidwivedi/TokenHMR
+
+   **:volleyball: Projects Page:** https://tokenhmr.is.tue.mpg.de/
+
+   **📚 Paper:** https://arxiv.org/abs/2404.16752 **(CVPR 2024)**
+
+   **📝 Note:** The results obtained from this algorithm are not satisfactory. Firstly, it exhibits significant jitter. Secondly, I tried various methods and wrote many conversion scripts, but I was unable to convert the obtained data into SMPL pose. So ultimately, I abandoned this algorithm, as the results were not satisfactory, and there was no need to create separate conversion scripts.
+
+   **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/motioncapture/TokenHMR).
+
+4. **Smpler-X**
 
    **:crystal_ball: Code:** https://github.com/caizhongang/SMPLer-X
 
@@ -256,13 +272,10 @@ Here are some result demonstrations.
 
    **📚 Paper:** https://arxiv.org/abs/2309.17448 **(NIPS 2023)**
 
-   **📝 Note:** The implementation and application of this algorithm are extremely challenging.
+   **📝 Note:** The implementation and application of this algorithm are extremely challenging, Because there is no corresponding tutorial provided on their GitHub. And its results are even worse than [TokenHMR](#tokenhmr). If you want to visualize it in Blender, you first need to modify its source code to save data in a specific format. The data is stored in a dictionary format within an npz file. Then you need to download the Blender plugin from this [website](https://gitlab.tuebingen.mpg.de/jtesch/smplx_blender_addon). Following its tutorial, you can visualize the results in Blender. Of course, if you are just testing the algorithm, this step can be skipped.
 
-   **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/music2dance/EDGE).
-
-7. 1
-
-8. 1
+   **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/motioncapture/Smpler-X).
 
 ## <span id='myanchor4'>other</span>
 
+Not yet categorized, it involves a wide range, such as text2scene, TTS , LLM, 3DGS , image2Scene, avatar, SVC (singing voice conversion), and so on. It will be further categorized in the future.
