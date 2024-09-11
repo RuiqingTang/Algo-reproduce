@@ -1,6 +1,6 @@
 # Algo-reproduce
 
-This repository documents all open-source algorithms that I have reproduced up to this point, as well as the modifications I have made.
+This repository documents most open-source algorithms that I have reproduced up to this point, as well as the modifications I have made.
 
 Due to there are many algorithms involved, I have placed the more effective algorithms and tool-oriented algorithms at the forefront, with special annotations provided. Because of my limited time and capabilities, I am unable to conduct exhaustive tests on all algorithms, so there may be some shortcomings. Feedback is welcome💡.
 
