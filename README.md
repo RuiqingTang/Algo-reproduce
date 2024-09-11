@@ -278,4 +278,4 @@ Here are some result demonstrations.
 
 ## <span id='myanchor4'>other</span>
 
-Not yet categorized, it involves a wide range, such as text2scene, TTS , LLM, 3DGS , image2Scene, avatar, SVC (singing voice conversion), and so on. It will be further categorized in the future.
+Not yet categorized, it involves a wide range, such as **text2scene**, **text2mesh**, **image2mesh**, **TTS**, **LLM**, **3DGS**, **image2Scene**, **avatar**, **text2music**, **SVC (singing voice conversion)**, and so on. It will be further categorized in the future.
