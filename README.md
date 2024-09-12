@@ -4,8 +4,6 @@ This repository documents most open-source algorithms that I have reproduced up 
 
 Due to there are many algorithms involved, I have placed the more effective algorithms and tool-oriented algorithms at the forefront, with special annotations provided. Because of my limited time and capabilities, I am unable to conduct exhaustive tests on all algorithms, so there may be some shortcomings. Feedback is welcome💡.
 
-Currently, you need to download these MP4 or GIF files to view them, and I will address the visualization issues in the future.
-
  <span id='algodir'>Most ALGOs</span>. Some are not included in this image but will be mentioned later.
 
 ![](./assets/projects_dir_list.png)
@@ -128,7 +126,7 @@ https://github.com/user-attachments/assets/73b8c362-4b7b-494f-bbc8-d5a0b4b0841a
 
    Secondly, considering the issue of algorithm efficiency, it currently takes a very long time. In the example above, it takes 43 seconds to export the FBX. This forces me to find ways to improve it. Since FlowMDM is based on [MDM](#mdm), and MDM recently open-sourced a diffusion model that only requires 50 steps, compared to the current 1000 steps, which can significantly reduce the time consumption. I will use this as a point of improvement. 
 
-   Additionally, the model outputs JOINT poses, which need to be converted into SMPL. Fortunately, previous researchers have provided a *joint2smpl* script. However, this step is actually very time-consuming. I examined its source code and found that the issue lies with the optimizer. The author used the *LBFGS* optimizer, which incurs significant computational overhead. I replaced it with *Adam*, which, although it does not achieve the same final performance as *LBFGS* (prone to Z-fighting issues), is much faster.
+   Additionally, the model outputs JOINT poses, which need to be converted into SMPL. Fortunately, previous researchers have provided a *joint2smpl* script. However, this step is actually very time-consuming. I examined its source code and found that the issue lies with the optimizer. The author used the *LBFGS* optimizer, which incurs significant computational overhead. I replaced it with *Adam*, which, although it does not achieve the same final performance as *LBFGS* (prone to Z-fighting issues), is much faster. Another solution is to set fewer optimization iterations, I changed it from 150 to 5. I haven't precisely tuned this data; I only plotted the loss curve, took a quick look, and then made the change.
 
    **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/FlowMDM).
 
