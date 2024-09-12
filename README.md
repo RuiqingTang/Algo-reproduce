@@ -42,6 +42,8 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
+https://github.com/RuiqingTang/Algo-reproduce/blob/main/assets/text2motion/SATO/mytest/boxing.mp4
+
 ## ⭐You can find all the results in this [directory](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets).
 
 ## <span id='tools'>Tools</span>
