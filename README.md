@@ -42,6 +42,14 @@ Here are some result demonstrations.
 
 ![](./assets/discord.png)
 
+<center>text2motion</center>
+
+https://github.com/user-attachments/assets/cfa95af2-3e2a-40c5-babe-3644feec0d3a
+
+<center>music2dance</center>
+
+https://github.com/user-attachments/assets/73b8c362-4b7b-494f-bbc8-d5a0b4b0841a
+
 ## ⭐You can find all the results in this [directory](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets).
 
 ## <span id='tools'>Tools</span>
