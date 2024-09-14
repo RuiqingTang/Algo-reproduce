@@ -12,6 +12,10 @@ Due to there are many algorithms involved, I have placed the more effective algo
 
 ✉️ Any additions or suggestions, feel free to contribute and contact [tangruiqing123@gmail.com](tangruiqing123@gmail.com).
 
+# 🔥News
+
+- `2024.09.14` adjusted the layout and modified some contents.
+
 ![](./assets/programmer.png)
 
 # Table of Contents
