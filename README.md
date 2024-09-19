@@ -146,7 +146,19 @@ https://github.com/user-attachments/assets/73b8c362-4b7b-494f-bbc8-d5a0b4b0841a
 
    **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/SATO).
 
-4. **PriorMDM**
+4. **StableMoFusion✨**
+
+   **:crystal_ball: Code:** https://github.com/h-y1heng/StableMoFusion
+
+   **:volleyball: Projects Page:** https://h-y1heng.github.io/StableMoFusion-page/
+
+   **📚 Paper:** https://arxiv.org/abs/2405.05691 
+
+   **📝 Note:**  This algorithm is an accelerated work of text2motion. Its inference speed is incredibly fast, taking less than 1 second on RTX 6000. Because it only requires 10 steps of diffusion, compared to MDM (1000 steps), it has been reduced to 1/100. Of course, this is not a simple DDIM. For specific technical details, please refer to the paper. After reading the paper and conducting tests, I discovered an issue. This algorithm strictly ensures the motion denoising trajectory closely aligned with the timestep. This can result in continuous motion throughout the duration. For example, if the input text is "A person does a backflip" with a duration of 4 seconds, according to common experience, we know that performing a backflip typically takes less than 4 seconds. This leads to the algorithm producing a result where the person is repeatedly doing backflips, and even when the duration ends, the person is still in the air. So I plan to modify its text encoder-related modules in the future (maybe a thousand years later, haha). Additionally, I have abandoned the foot-skate improvement because it is too time-consuming.
+
+   **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/StableMoFusion).
+
+5. **PriorMDM**
 
    **:crystal_ball: Code:** https://github.com/priorMDM/priorMDM
 
@@ -158,7 +170,7 @@ https://github.com/user-attachments/assets/73b8c362-4b7b-494f-bbc8-d5a0b4b0841a
 
    **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/PriorMDM).
 
-5. **<span id='mdm'>motion-diffusion-model</span>**
+6. **<span id='mdm'>motion-diffusion-model</span>**
 
    **:crystal_ball: Code:** https://github.com/GuyTevet/motion-diffusion-model
 
@@ -170,7 +182,7 @@ https://github.com/user-attachments/assets/73b8c362-4b7b-494f-bbc8-d5a0b4b0841a
 
    **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/MDM).
 
-6. **momask**
+7. **momask**
 
    **:crystal_ball: Code:** https://github.com/EricGuo5513/momask-codes
 
@@ -182,7 +194,7 @@ https://github.com/user-attachments/assets/73b8c362-4b7b-494f-bbc8-d5a0b4b0841a
 
    **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/momask).
 
-7. **MotionGPT**
+8. **MotionGPT**
 
    **:crystal_ball: Code:** https://github.com/OpenMotionLab/MotionGPT
 
@@ -194,7 +206,7 @@ https://github.com/user-attachments/assets/73b8c362-4b7b-494f-bbc8-d5a0b4b0841a
 
    **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/MotionGPT).
 
-8. **TM2D**
+9. **TM2D**
 
    **:crystal_ball: Code:** https://github.com/Garfield-kh/TM2D
 
@@ -206,7 +218,7 @@ https://github.com/user-attachments/assets/73b8c362-4b7b-494f-bbc8-d5a0b4b0841a
 
    **📀 Results:** You can check the demo result and my test results [here](https://github.com/RuiqingTang/Algo-reproduce/tree/main/assets/text2motion/TM2D).
 
-9. **Other**
+10. **Other**
 
    There are also many other algorithms that I discontinued for various reasons (certain part of an algorithm, performing too poorly, robustness is too poor, etc.). You can review the content in this [image](#algodir) to see if it contains what you need.
 
