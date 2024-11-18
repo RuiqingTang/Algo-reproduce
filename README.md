@@ -15,6 +15,7 @@ Due to there are many algorithms involved, I have placed the more effective algo
 # 🔥News
 
 - `2024.09.14` adjusted the layout and modified some contents.
+- `2024.11.18` I apologize for the delay in updating this project due to my graduate studies. I anticipate releasing a major update during the winter break.
 
 ![](./assets/programmer.png)
 
